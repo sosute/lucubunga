@@ -1,0 +1,844 @@
+/*! normalize.css v3.0.1 | MIT License | git.io/normalize */
+@charset "UTF-8";
+html {
+	font-family:"メイリオ", Meiryo, Osaka, "MS UI Gothic", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	-ms-text-size-adjust:100%;
+	-webkit-text-size-adjust:100%
+}
+body {
+	margin:0
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+	display:block
+}
+audio, canvas, progress, video {
+	display:inline-block;
+	vertical-align:baseline
+}
+audio:not([controls]) {
+	display:none;
+	height:0
+}
+[hidden], template {
+display:none
+}
+a {
+	background:transparent
+}
+a:active, a:hover {
+	outline:0
+}
+abbr[title] {
+	border-bottom:1px dotted
+}
+b, strong {
+	font-weight:700
+}
+dfn {
+	font-style:italic
+}
+h1 {
+	font-size:2em;
+	margin:.67em 0
+}
+mark {
+	background:#ff0;
+	color:#000
+}
+small {
+	font-size:80%
+}
+sub, sup {
+	font-size:75%;
+	line-height:0;
+	position:relative;
+	vertical-align:baseline
+}
+sup {
+	top:-.5em
+}
+sub {
+	bottom:-.25em
+}
+img {
+	border:0
+}
+svg:not(:root) {
+	overflow:hidden
+}
+figure {
+	margin:1em 40px
+}
+hr {
+	box-sizing:content-box;
+	height:0
+}
+pre {
+	overflow:auto
+}
+code, kbd, pre, samp {
+	font-family:monospace, monospace;
+	font-size:1em
+}
+button, input, optgroup, select, textarea {
+	color:inherit;
+	font:inherit;
+	margin:0
+}
+button {
+	overflow:visible
+}
+button, select {
+	text-transform:none
+}
+button, html input[type=button], input[type=reset], input[type=submit] {
+	-webkit-appearance:button;
+	cursor:pointer
+}
+button[disabled], html input[disabled] {
+	cursor:default
+}
+button::-moz-focus-inner, input::-moz-focus-inner {
+border:0;
+padding:0
+}
+input {
+	line-height:normal
+}
+input[type=checkbox], input[type=radio] {
+	box-sizing:border-box;
+	padding:0
+}
+input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer-spin-button {
+height:auto
+}
+input[type=search] {
+	-webkit-appearance:textfield;
+	box-sizing:content-box
+}
+input[type=search]::-webkit-search-cancel-button, input[type=search]::-webkit-search-decoration {
+-webkit-appearance:none
+}
+fieldset {
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+legend {
+	border:0;
+	padding:0
+}
+textarea {
+	overflow:auto
+}
+optgroup {
+	font-weight:700
+}
+table {
+	border-collapse:collapse;
+	border-spacing:0
+}
+td, th {
+	padding:0
+}
+.btn {
+	display:inline-block;
+	text-align:center;
+	padding:.6em 1.2em;
+	cursor:pointer;
+	line-height:1.5;
+	font-size:90%;
+	border-radius:.25em;
+	overflow:hidden;
+	color:#37aed5;
+	background-color:transparent;
+	text-decoration:none;
+	border:1px solid #37aed5;
+	transition:all .2s
+}
+.btn:hover {
+	background-color:#37aed5;
+	color:#fff;
+	text-decoration:none;
+	border-color:#37aed5
+}
+.btn-light {
+	border-color:#999;
+	color:#444
+}
+.btn-light:hover {
+	background-color:#444;
+	border-color:#444;
+	color:#fff
+}
+.btn-primary {
+	background-color:#37aed5;
+	color:#fff;
+	border-color:#37aed5
+}
+.btn-primary:hover {
+	background-color:#2797bc;
+	color:#fff;
+	border-color:#2797bc
+}
+.btn-large {
+	padding:.7em 2em;
+	font-size:120%;
+	box-sizing:border-box;
+	border-width:2px
+}
+body {
+	background:#fff;
+	color:#444;
+	-webkit-font-smoothing:antialiased
+}
+a {
+	color:#37aed5;
+	transition:all .2s
+}
+a:hover {
+	color:#2797bc
+}
+h1 a, h1 a:hover, h2 a, h2 a:hover, h3 a, h3 a:hover, h4 a, h4 a:hover, h5 a, h5 a:hover, h6 a, h6 a:hover {
+	color:#444;
+	text-decoration:none
+}
+.clearfix, .l-row {
+*zoom:1
+}
+.clearfix:before, .l-row:before, .clearfix:after, .l-row:after {
+	display:table;
+	content:" "
+}
+.clearfix:after, .l-row:after {
+	clear:both
+}
+body {
+	font-size:12px;
+	line-height:1.4em;
+	background-color:white;
+	background-image:url(/assets/esta-o/img/201504/bg.gif)
+}
+.container-l {
+	width:930px;
+	margin:0 auto;
+	background-color:#fff
+}
+.container-s {
+	width:900px;
+	margin:0 auto
+}
+.graygrad {
+	background:#fff;
+	/*background:linear-gradient(to bottom, #fff 0, #f5f5f5 100%);*/
+	background:linear-gradient(to bottom, #fcfcfc 0, #e6e6e6 100%);
+	/*filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#f5f5f5', GradientType=0)*/
+filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#fcfcfc', endColorstr='#e6e6e6', GradientType=0)
+}
+h1 {
+	font-size:18px;
+	display:inline-block;
+	color:#0071bc;
+	margin-top: 0;
+	margin-right: 0;
+	margin-bottom: 0;
+	margin-left: 0px;
+}
+a {
+	text-decoration:none
+}
+img {
+	vertical-align:bottom
+}
+.border {
+	border: 1px solid #333;
+}
+.header {
+	position:relative;
+	width:930px;
+	height:117px;
+	margin:0 auto;
+	background-image:url(/assets/esta-o/img/201504/header.jpg)
+}
+.header p {
+	padding:6px 0 0 15px;
+	/*color:white*/
+	color: #d0d0d0;
+}
+.header .summarytext {
+	padding:0;
+	background-color: #2E2940;
+	height: 30px;
+	font-size: 9px;
+}
+.logo {
+	position:absolute;
+	top:4px;
+	right:60px
+}
+.menu {
+	position:absolute;
+	top:78px;
+	padding-left:0;
+	list-style:none;
+	line-height:1;
+}
+.menu li {
+	float:left;
+	border-right:#ddddde 2px solid;
+	line-height:1;
+}
+.menu a {
+	display:block;
+	width:132px;
+	font-weight:bold;
+	color:#2e295c;
+	text-align:center;
+	padding:6px 0;
+}
+.contentstext1 {
+	width:874px;
+	margin:0 12px
+}
+.worldmap {
+	background-image:url(/assets/esta-o/img/201504/worldmap.png);
+	background-repeat:no-repeat;
+	background-position:70% 250%
+}
+.borderbox {
+	width:100%;
+	border:#000000 solid 1px;
+	-webkit-box-shadow: 2px 2px 1px #dfdfdf;
+	box-shadow: 2px 2px 1px #dfdfdf;
+}
+.step {
+	padding-left:12px;
+	list-style:none;
+	white-space:nowrap
+}
+.step li {
+	display:inline-block;
+	float:left;
+	width:172px;
+	margin-left:4px;
+	padding:8px;
+	text-align:center;
+	border:#898989 1px solid;
+	background-color:#cfffff;
+	-webkit-box-shadow: 1px 1px 1px #C6C7C7;
+	box-shadow: 1px 1px 1px #C6C7C7;
+	height: 85px;
+}
+.step li:first-child {
+	margin-left:0
+}
+.step li .tr {
+	padding-left: 45px;
+}
+.borderbox p {
+	text-align:justify;
+}
+.borderbox .japanese {
+	font-size: 10px;
+}
+.borderbox .translation {
+	font-size: 9px;
+}
+.borderbox .btn_shadow {
+	border:#000000 solid 1px;
+	-webkit-box-shadow: 2px 2px 1px #dfdfdf;
+	box-shadow: 2px 2px 1px #dfdfdf;
+}
+.step1ligo {
+	background-image: url(/assets/esta-o/img/201504/icon01.png);
+	background-repeat: no-repeat;
+	background-position: left center;
+}
+.step2ligo {
+	background-image: url(/assets/esta-o/img/201504/icon02.png);
+	background-repeat: no-repeat;
+	background-position: left center;
+}
+.step3ligo {
+	background-image: url(/assets/esta-o/img/201504/icon03.png);
+	background-repeat: no-repeat;
+	background-position: left center;
+}
+.step4ligo {
+	background-image: url(/assets/esta-o/img/201504/icon04.png);
+	background-repeat: no-repeat;
+	background-position: left center;
+}
+.block {
+	display:block
+}
+.arrow {
+	position:relative;
+	top:50px;
+	float:left;
+	margin-left:4px
+}
+.halftext {
+	float:left;
+	width:413px;
+	padding-top: 15px;
+	padding-right: 17px;
+	padding-bottom: 15px;
+	padding-left: 15px;
+}
+.halftext2 {
+	float:left;
+	border-left:#000000 1px solid;
+	width:413px;
+	padding-top: 15px;
+	padding-right: 14px;
+	padding-bottom: 15px;
+	padding-left: 15px;
+}
+.red {
+	color:#c1272d
+}
+.green {
+	color:#006837
+}
+.blue {
+	color:#2e3192
+}
+.orange {
+	color:#f48760
+}
+.gray {
+	color:#666666;
+	font-size: 10px;
+	background-image: url(/assets/esta-o/img/201504/arrow3.png);
+	background-repeat: no-repeat;
+	background-position: left center;
+	padding-left: 20px;
+}
+.support_text {
+	margin-bottom: 15px;
+}
+.support_text ul {
+	margin: 0px;
+	padding: 0px;
+}
+.support_text ul li {
+	background-image: url(/assets/esta-o/img/201504/arrow3.png);
+	background-repeat: no-repeat;
+	background-position: left center;
+	list-style-type: none;
+	margin: 0px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 25px;
+	font-size: 10px;
+}
+.support_text p {
+	margin: 0px;
+	padding: 0px;
+	font-size: 10px;
+	font-weight: bold;
+}
+.contents4 {
+	padding-left:0;
+	list-style:none;
+	white-space:nowrap;
+}
+.contents4-title {
+	font-size:1.2em;
+	font-weight:700
+}
+.contents4 li {
+	float:left;
+	width:197px;
+	margin-left:13px;
+	padding:8px;
+	border:#000000 solid 1px;
+	-webkit-box-shadow: 2px 2px 1px #dfdfdf;
+	box-shadow: 2px 2px 1px #dfdfdf;
+}
+.contents4 li:first-child {
+	margin-left:0px;
+	margin-right: 1px;
+}
+.contents4 p {
+	text-align:justify;
+	white-space:normal;
+	line-height: 1.5em;
+	margin-bottom: 0px;
+	font-size: 10px;
+}
+.footer {
+	width:930px;
+	padding:0;
+	color:white;
+	background-color:#181b4c
+}
+.footer p {
+	margin-left:12px
+}
+.footer ul {
+	margin-right:12px;
+	list-style:none;
+	text-align:right;
+	font-weight: bold;
+}
+.footer li {
+	display:inline-block;
+	margin-right:4px;
+	padding-left:8px;
+	color:#fff;
+	border-left:1px #fff solid
+}
+.footer li:first-child {
+	border:none
+}
+.menu a:before, .menu a:after {
+	position:absolute;
+	z-index:-1;
+	display:block;
+	content:""
+}
+.menu a, .menu a:before, .menu a:after {
+	box-sizing:border-box;
+	transition:all .6s
+}
+.menu a:hover {
+	color:#ad3608
+}
+.footer a:before, .footer a:after {
+	position:absolute;
+	z-index:-1;
+	display:block;
+ content:""  color: #FFF;
+}
+.footer a, .footer a:before, .footer a:after {
+	box-sizing:border-box;
+	transition:all .6s;
+	color: #FFF;
+}
+.footer a:hover {
+	color:#ff2964
+}
+.js_error {
+	text-align: center;
+	padding: 10px;
+	margin-top: 30px;
+	margin-right: 0;
+	margin-bottom: 30px;
+	margin-left: 0;
+	background-color: #B70000;
+	color: #FFF;
+}
+/*
+* contents下層
+*/
+#container {
+	padding-top: 20px;
+	padding-right: 50px;
+	padding-bottom: 20px;
+	padding-left: 50px;
+}
+#container h2 {
+	font-size: 14px;
+	color: #FFFFFF;
+	font-weight: bold;
+	margin-bottom: 20px;
+	background-image: url(/assets/esta-o/img/201504/icon_h1.png);
+	background-repeat: no-repeat;
+	background-position: 10px center;
+	padding: 10px 10px 10px 25px;
+	background: #2e2940; /* Old browsers */
+	background: -moz-linear-gradient(top, #2e2940 0%, #261e7a 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #2e2940), color-stop(100%, #261e7a)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #2e2940 0%, #261e7a 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #2e2940 0%, #261e7a 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #2e2940 0%, #261e7a 100%); /* IE10+ */
+	background: linear-gradient(to bottom, #2e2940 0%, #261e7a 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2e2940', endColorstr='#261e7a', GradientType=0 ); /* IE6-9 */
+	border-radius: 5px;        /* CSS3草案 */
+	-webkit-border-radius: 5px;    /* Safari,Google Chrome用 */
+	-moz-border-radius: 5px;   /* Firefox用 */
+}
+#container h3.subtitle-arrow {
+	font-size: 16px;
+	color: #2E2964;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-weight: bold;
+	background-image: url(/assets/esta-o/img/201504/arrow02.png);
+	background-repeat: no-repeat;
+	background-position: 0px 12px;
+	/*padding-left: 15px;*/
+	line-height: 2em;
+}
+#container .surrounds {
+	font-size: 12px;
+	margin-left: 30px;
+	line-height: 2em;
+	margin-right: 30px;
+	margin-bottom: 20px;
+	padding: 10px;
+	background-color: #E8EFF4;
+}
+#container .service li {
+	background-repeat: no-repeat;
+	background-position: left center;
+	font-size: 12px;
+	padding-left: 20px;
+	margin-bottom: 10px;
+	list-style-type: none;
+	background-image: url(/assets/esta-o/img/201504/check1.gif);
+}
+#container .cardicon {
+	list-style-type: none;
+	margin-bottom: 10px;
+	padding: 0px;
+}
+#container .cardicon li {
+	float: left;
+	margin-left: 10px;
+}
+#container .cardicon li img {
+	margin-top: 5px;
+}
+#container .apply_flow {
+	text-align: center;
+	display: block;
+}
+#container .style_p01red {
+	color: red;
+}
+#container .style_p01disable {
+	color: gray;
+	text-decoration:line-through
+}
+#container .text-color-red {
+	color: #F00;
+}
+#container .btn_big {
+	display: block;
+	text-align: center;
+	background-image: url(/assets/esta-o/img/201504/btn_300-50.jpg);
+	width: 300px;
+	margin-top: 30px;
+	margin-right: auto;
+	margin-bottom: 30px;
+	margin-left: auto;
+	height: 50px;
+	background-repeat: no-repeat;
+	line-height: 50px;
+	font-size: 18px;
+	font-weight: bold;
+}
+#container .btn_big a {
+	color: #FFF;
+}
+#container .btn_big a:hover {
+	color: #FFF;
+}
+#container .btn_big2 {
+	display: block;
+	text-align: center;
+	background-image: url(/assets/esta-o/img/201504/btn_300-50.jpg);
+	width: 300px;
+	margin-top: 30px;
+	margin-right: auto;
+	margin-bottom: 30px;
+	margin-left: auto;
+	height: 50px;
+	background-repeat: no-repeat;
+	line-height: 50px;
+	font-size: 17px;
+	font-weight: bold;
+	color: #FFF;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+#container .btn_big2 a {
+	color: #FFF;
+}
+#container .btn_big2 a:hover {
+	color: #FFF;
+}
+#container .btn_big3 {
+	display: block;
+	text-align: center;
+	background-image: url(/assets/esta-o/img/201504/btn_300-50-b.jpg);
+	width: 300px;
+	margin-top: 30px;
+	margin-right: auto;
+	margin-bottom: 30px;
+	margin-left: auto;
+	height: 50px;
+	background-repeat: no-repeat;
+	line-height: 50px;
+	font-size: 17px;
+	font-weight: bold;
+	color: #FFF;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+#container .btn_big3 a {
+	color: #FFF;
+}
+#container .btn_big3 a:hover {
+	color: #FFF;
+}
+#container .center {
+	text-align: center;
+}
+/*
+* contents下層 特定商取引表記
+*/
+#container .table_company {
+	font-size: 13px;
+	color: #453F38;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 10px;
+	width: 697px;
+	border-collapse: collapse;
+}
+#container .table_company .td_company1 {
+	width: 150px;
+	padding: 10px;
+	background-color: #F0F0F0;
+	border: 1px solid #2E2964;
+}
+#container .table_company .td_company2 {
+	padding: 10px;
+	background-color: #FEFDFC;
+	border: 1px solid #2E2964;
+}
+/*
+* contents下層 利用規約
+*/
+#container .agreement {
+	padding: 20px;
+	background-color: #E8EFF4;
+}
+#container .agreement ul li {
+	margin-top: 10px;
+	background-image: url(/assets/esta-o/img/201504/arrow03.png);
+	background-repeat: no-repeat;
+	background-position: 0px 5px;
+	padding-left: 20px;
+	list-style-type: none;
+}
+/*
+* contents下層 個人情報保護
+*/
+#container .privacy {
+	width: 790px;
+	font-size:12px;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 20px;
+	background-color: #E8EFF4;
+}
+#container .privacy p {
+	font-size: 12px;
+	line-height: 20px;
+}
+/*
+* contents下層 not found
+*/
+#notfound {
+	width:900px;
+	margin-top: 50px;
+	margin-right: auto;
+	margin-bottom: 50px;
+	margin-left: auto;
+	height: 450px;
+	background-color: #E8EFF4;
+	padding-top: 100px;
+}
+#notfound .notfound_box01 {
+	margin-left: auto;
+	margin-right: auto;
+	width: 500px;
+	text-align: center;
+}
+#notfound .notfound_box02 {
+	margin-left: auto;
+	margin-right: auto;
+	width: 460px;
+	text-align: center;
+	background-color: #FFFFFF;
+	border: 1px solid #999;
+	margin-bottom: 50px;
+	padding: 20px;
+	margin-top: 50px;
+}
+#notfound .notfound_box02 p {
+	background-color: #FFFFFF;
+	font-size: 15px;
+}
+.main_description {
+	width: 900px;
+}
+.main_description .left_img {
+	width: 265px;
+	float: left;
+}
+.main_description .right_text {
+	width: 635px;
+	float: left;
+	background-image: url(/assets/esta-o/img/201504/worldmap.png);
+	background-repeat: no-repeat;
+	background-position: 80px 0px;
+}
+.main_description .right_text .text {
+	text-align: justify;
+	line-height: 1.5em;
+	padding: 0px;
+	margin-top: 5px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	font-size: 8pt;
+}
+.main_description .right_box {
+	margin: 0px;
+	height: 30px;
+	padding-top: 5px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+.main_description .right_box .left_attention {
+	color: #FF0000;
+	font-size: 14px;
+	font-weight: bold;
+	float: left;
+	margin: 0px;
+	height: 30px;
+	vertical-align: top;
+	width: 430px;
+	padding-top: 10px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+.main_description .right_box .left_attention p {
+	vertical-align: top;
+	margin: 0px;
+	padding: 0px;
+}
+.main_description .right_box .rigth_btn {
+	float: right;
+	display: block;
+	padding: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	height: 30px;
+}

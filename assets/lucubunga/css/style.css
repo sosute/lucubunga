@@ -1,0 +1,185 @@
+/* CSS Document */
+
+body {
+	background:#362e2b;
+}
+
+.page {
+	width:1000px;
+	margin:0 auto;
+	border-left:#0e0c0b 2px solid;
+	border-right:#0e0c0b 2px solid;
+	border-bottom:#0e0c0b 2px solid;
+}
+
+.head {
+	background:url(../img/bdr.jpg) bottom no-repeat #2d140b;
+	min-height:136px;
+	padding:0 0 0 2px;
+}
+
+.foot {
+	background:url(../img/bdr.jpg) top no-repeat #2d140b;
+	min-height:136px;
+	padding:2px 0 0 0;
+}
+
+h1 {
+	padding:40px 0 0 15px;
+}
+
+.content {
+	background:#885300;
+}
+
+.topgnav {
+	background:url(../img/bg_gnav.jpg) repeat-x #885300;
+	width:220px;
+	min-height:372px;
+}
+
+.subgnav {
+	background:url(../img/bg_gnav_sub.png) repeat-x #885300;
+	width:220px;
+	min-height:372px;
+}
+
+.topgnav .inner,
+.subgnav .inner {
+	padding:34px 0 0 22px;
+}
+
+.topgnav .inner li,
+.subgnav .inner li {
+	padding:0 0 28px 0;
+}
+
+.foot_top {
+	padding:15px 0 75px 20px;
+}
+
+.foot_top li {
+	float:left;
+	color:#877554;
+	padding:0 5px 0 0;
+}
+
+.foot_btm {
+	padding:0 12px;
+}
+
+.submain {
+	background:url(../img/bg_sub.jpg) repeat-x #e2d79e;
+	min-height:600px;
+	padding:0 0 20px 0;
+	width:780px;
+}
+
+.submain .inner {
+	padding:50px 0 0 75px;
+}
+
+.product {
+	background:url(../img/bg_pre_product.png);
+	width:635px;
+	height:490px;
+	position:relative;
+}
+
+.detail {
+	background:url(../img/bg_pre_detail.png);
+	width:635px;
+	height:490px;
+	position:relative;
+}
+.detail2 {
+	background:url(../img/bg_pre_detail2.png);
+	width:635px;
+	height:490px;
+	position:relative;
+}
+
+.cartbtn {
+	position:absolute;
+	top:415px;
+	left:450px;
+}
+
+.cartbtn td {
+	padding:0 5px;
+}
+
+.btn01{
+	position:absolute;
+	top:230px;
+	left:500px;
+}
+
+.btn02{
+	position:absolute;
+	top:430px;
+	left:500px;
+}
+
+.btn_cart {
+	background:url(../img/btn_cart.png);
+	width:121px;
+	height:28px;
+}
+
+h2 {
+	background:url(../img/bg_subttl.jpg);
+	width:1000px;
+	height:100px;
+}
+
+h2 img {
+	padding:0 0 0 15px;
+}
+
+
+/*--cart--*/
+
+#container {
+	width:1000px;
+	margin:0 auto;
+	border:none;
+}
+
+#container #footer {
+	background:#2d140b;
+
+}
+
+#container #footer a:hover {
+	color:#FFFFFF;
+	text-decoration:none;
+}
+
+.footnavi {
+	text-indent:-9999px;
+}
+
+.cart_head h1 {
+	float:left;
+}
+
+.cart_top {
+	padding:105px 15px 0 0;
+	float:right;
+}
+
+.cart_top li {
+	float:left;
+	color:#877554;
+	padding:0 5px 0 0;
+}
+
+td a {
+	color:#383636;
+}
+
+td a:hover {
+	color:#383636;
+}
+
